@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TECHNICAL JS</title>
+    <link rel="stylesheet" href="TECHNICALDOC.CSS" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>JS TUTORIAL</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#JavaScript_introduction"
+            >JavaScript introduction</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Functions">Functions</a></li>
+        <li><a class="nav-link" href="#Data_types">Data types</a></li>
+        <li><a class="nav-link" href="#Scope">Scope</a></li>
+        <li><a class="nav-link" href="#Constants">Constants</a></li>
+        <li><a class="nav-link" href="#Operators">Operators</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="JavaScript_introduction">
+        <header>JavaScript introduction</header>
+        <article>
+          <p>
+            JavaScript (JS) is a lightweight, interpreted, or just-in-time
+            compiled programming language with first-class functions. While it
+            is most well-known as the scripting language for Web pages, many
+            non-browser environments also use it, such as Node.js, Apache
+            CouchDB and Adobe Acrobat. JavaScript is a prototype-based,
+            multi-paradigm, single-threaded, dynamic language, supporting
+            object-oriented, imperative, and declarative (e.g. functional
+            programming) styles. Read more about JavaScript.
+          </p>
+          <code>
+            <ul>
+              <li>
+                JavaScript is the world's most popular programming language.
+              </li>
+              <li>JavaScript is the programming language of the Web.</li>
+              <li>JavaScript is easy to learn.</li>
+              <li>
+                This tutorial will teach you JavaScript from basic to advanced.
+              </li>
+            </ul>
+          </code>
+          <p>
+            This section is dedicated to the JavaScript language itself, and not
+            the parts that are specific to Web pages or other host environments.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <article>
+          <p>There are 3 ways to declare a JavaScript variable:</p>
+          <code>
+            <ul>
+              <li>Var</li>
+              <li>Let</li>
+              <li>Constant</li>
+            </ul>
+          </code>
+        </article>
+      </section>
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <article>
+          <p>
+            Functions are one of the fundamental building blocks in JavaScript.
+            A function in JavaScript is similar to a procedure—a set of
+            statements that performs a task or calculates a value, but for a
+            procedure to qualify as a function, it should take some input and
+            return an output where there is some obvious relationship between
+            the input and the output. To use a function, you must define it
+            somewhere in the scope from which you wish to call it.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Data_types">
+        <header>Data types</header>
+        <article>
+          <p>The latest ECMAScript standard defines eight data types:</p>
+          <code>
+            <ul>
+              <li>
+                Seven data types that are primitives:
+                <ol>
+                  <li>Boolean. true and false.</li>
+                  <li>
+                    null. A special keyword denoting a null value. (Because
+                    JavaScript is case-sensitive, null is not the same as Null,
+                    NULL, or any other variant.)
+                  </li>
+                  <li>
+                    undefined. A top-level property whose value is not defined.
+                  </li>
+                  <li>
+                    Number. An integer or floating point number. For example: 42
+                    or 3.14159.
+                  </li>
+                  <li>
+                    BigInt. An integer with arbitrary precision. For example:
+                    9007199254740992n.
+                  </li>
+                  <li>
+                    String. A sequence of characters that represent a text
+                    value. For example: "Howdy"
+                  </li>
+                  <li>
+                    Symbol (new in ECMAScript 2015). A data type whose instances
+                    are unique and immutable.
+                  </li>
+                </ol>
+              </li>
+              <li>Object</li>
+            </ul>
+          </code>
+          <p>
+            Although these data types are relatively few, they enable you to
+            perform useful functions with your applications. Objects and
+            functions are the other fundamental elements in the language. You
+            can think of objects as named containers for values, and functions
+            as procedures that your script can perform.
+          </p>
+        </article>
+      </section>
+
+      <section class="main-section" id="Scope">
+        <header>Scope</header>
+        <article>
+          <p>
+            When you declare a variable outside of any function, it is called a
+            global variable, because it is available to any other code in the
+            current document. When you declare a variable within a function, it
+            is called a local variable, because it is available only within that
+            function. JavaScript before ECMAScript 2015 does not have block
+            statement scope. Rather, a variable declared within a block is local
+            to the function (or global scope) that the block resides within.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Constants">
+        <header>Constants</header>
+        <article>
+          <p>
+            You can create a read-only, named constant with the const keyword.
+            <br />
+            <code>
+              The syntax of a constant identifier is the same as any variable
+              identifier: it must start with a letter, underscore, or dollar
+              sign ($), and can contain alphabetic, numeric, or underscore
+              characters.
+            </code>
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Operators">
+        <header>Operators</header>
+        <article>
+          <p>JavaScript has the following types of operators:</p>
+          <code>
+            <ul>
+              <li>Assignment operators</li>
+              <li>Comparison operators</li>
+              <li>Arithmetic operators</li>
+              <li>Bitwise operators</li>
+              <li>Logical operators</li>
+              <li>String operators</li>
+              <li>Conditional (ternary) operator</li>
+              <li>Comma operator</li>
+              <li>Unary operators</li>
+              <li>Relational operators</li>
+            </ul>
+          </code>
+
+          <p>
+            JavaScript has both binary and unary operators, and one special
+            ternary operator, the conditional operator.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
